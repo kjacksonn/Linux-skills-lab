@@ -16,7 +16,8 @@ Linux-Skills-Lab/
 ├── README.md
 ├── scripting/
 │   ├── tell.sh
-│   └── README.md
+|    └──  tell_output.txt
+│   
 ├── permissions/
 │   ├── chmod_examples.md
 │   └── user_group_demo.md
@@ -28,12 +29,9 @@ Linux-Skills-Lab/
 │   ├── fstab_example.md
 │   └── partition_commands.md
 ├── boot_process/
-│   ├── runlevels.md
-│   └── systemd_services.md
-└── outputs/
-    ├── week1_terminal_log.txt
-    ├── week2_terminal_log.txt
-    └── ...
+    ├── runlevels.md
+    └── systemd_services.md
+
 ```
 
 ---
