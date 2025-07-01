@@ -19,4 +19,21 @@ for user in $(who | awk '{print $1}' | sort | uniq); do
     echo "---------------------------------------"
 
     # C) Disk usage details
+    echo "Disk space consumed in home directory (in K block):"
+    find "$home_dir" -type f -exec du -k {} + 2>/dev/null
 
+    total=$(du -sk "$home_dir" 2>/dev/null | awk '{print $1}')
+    echo "Total Used (in K blocks):  $total"
+    echo "--------------------------------------"
+
+    # D) List all processes owned by the user
+    echo "Process Information:"
+    ps -u "$user" -f --forest
+    echo "--------------------------------------"
+
+    # E) Show total CPU and memory usage by that user
+    echo "Overall CPU and Memory Utilization Information:"
+    cpu_mem=$(ps -u "$user" -o %cpu,%mem --no-headers | awk '{cpu+=$1; mem+=$2}>
+    echo "$cpu_mem"
+    echo "============================================"
+done
