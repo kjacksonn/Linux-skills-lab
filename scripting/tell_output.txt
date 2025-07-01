@@ -1,0 +1,23 @@
+#This is just a small portion of the tell_output.txt file
+
+GNU nano 4.8                  tell_output.txt
+=============================================
+Username: kj
+Logged In From: tty7 Since: 2025-07-01 10:10 (:0)
+Home Directory: /home/kj
+---------------------------------------
+Disk space consumed in home directory (in K block):
+4       /home/kj/.bashrc
+6472    /home/kj/VBoxLinuxAdditions.run
+4       /home/kj/.xsession-errors.old
+.
+.
+.
+
+kj          1068     906  0 10:10 ?        00:00:00  \_ /usr/libexec/at-spi>
+kj          1074    1068  0 10:10 ?        00:00:00  |   \_ /usr/bin/dbus-d>
+kj          1078     906  0 10:10 ?        00:00:00  \_ /usr/libexec/at-spi>
+--------------------------------------
+Overall CPU and Memory Utilization Information:
+CPU Utilization % = 5.1  Memory Utilization % = 11.3
+============================================
