@@ -67,7 +67,7 @@ Linux-Skills-Lab/
 ---
 
 ## 📷 Screenshots / Output Samples
-Terminal output logs are stored in the `outputs/` directory and relevant command explanations are documented per folder.
+Terminal output for tell.sh `tell_output.txt` 
 
 ---
 
